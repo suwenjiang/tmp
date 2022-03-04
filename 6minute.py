@@ -7,7 +7,7 @@ import urllib
 
 url="http://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-150903"
 
-page_content=urllib2.urlopen(url)
+page_content=urllib3.urlopen(url)
 
 
 
