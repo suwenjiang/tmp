@@ -1,18 +1,17 @@
 __author__ = 'jiangmb'
 
 from bs4 import BeautifulSoup
-import urllib3
-import urllib
+import requests
 
 
 url="http://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-150903"
 
-page_content=urllib3.urlopen(url)
+page_content=requests.get(url)
 
 
 
 
-print (page_content)
+print (page_content.content)
 
 
 
