@@ -1,7 +1,7 @@
 __author__ = 'jiangmb'
 
 from bs4 import BeautifulSoup
-import urllib2
+import urllib3
 import urllib
 
 
